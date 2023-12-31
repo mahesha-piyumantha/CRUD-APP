@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: hsl(60, 100%, 99%);
+}
+
+.container {
+  padding: 10px;
+  /* background-color: red; */
+  max-width: fit-content;
+  margin-top: 100px;
+  margin-left: 250px;
+  border: 10px solid teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;  
+}
+
+.btn {
+  border: none;
+  padding: 7px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: #194064;
+  color: white;
+}
+
+.addContainer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.addContainer form {
+  width: 420px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.addContainer form label {
+  font-size: 15px;
+}
+
+.addContainer form input {
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px 0px 10px 0px;
+}
+
+.addContainer form button {
+  background-color: rgb(32, 87, 226);
+  color: white;
+  font-weight: 550;
+  margin-top: 20px;
+}
+
+.close-btn {
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.tableContainer{
+  padding: 50px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableContainer table {
+  border: 5px solid #c9c5c2;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.tableContainer table thead th{
+  background-color: #f0eaea;
+}
+
+.tableContainer table thead tr th , .tableContainer table tbody tr td{
+
+  min-width: 200px;
+  padding: 7px;
+  text-align: center;
+}
+
+.tableContainer table tbody tr td{
+
+  border-bottom : 1px solid #c9c5c2;
+}
+
+.btn-edit{
+
+  background-color: rgb(46, 250, 46);
+  margin-right: 20px;
+}
+
+.btn-delete{
+
+  background-color: rgb(255, 49, 49);
+  margin: auto;
+}
